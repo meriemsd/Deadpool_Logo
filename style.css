@@ -19,11 +19,6 @@ body{
     background-color: black;
     border: 15px solid red;
     border-radius: 100%;
-
-    position: absolute; /* Absolute positioning for the inner div */
-    top: 50%; /* Aligning the inner div vertically */
-    left: 50%; /* Aligning the inner div horizontally */
-    transform: translate(-50%, -50%);
     
 
 }
