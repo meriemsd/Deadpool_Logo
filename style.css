@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(105, 49, 105) ;
+}
+
+
+.container{
+
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+   
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    border: 15px solid red;
+    border-radius: 100%;
+
+    position: absolute; /* Absolute positioning for the inner div */
+    top: 50%; /* Aligning the inner div vertically */
+    left: 50%; /* Aligning the inner div horizontally */
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.eye1{
+    background-color: white;
+    margin-top: 120px;
+    border-left: px solid ;
+    border-bottom: 15px solid ;
+    border-right:15px solid ;
+    border-top-right-radius:100%;
+    border-bottom-left-radius: 70%;
+    width: 100px;
+    height: 80px;
+
+}
+
+.eye2{
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 10px;
+    border-right: px solid ;
+    border-bottom: 15px solid ;
+    border-left:15px solid ;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 70%;
+    width: 100px;
+    height: 80px;
+
+}
+
+.line1{
+    width: 50px;
+    height: 320px;
+    background-color: red;
+}
